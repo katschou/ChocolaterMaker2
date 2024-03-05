@@ -1,6 +1,7 @@
 <?php
 require "settings/init.php";
 ?>
+
 <!DOCTYPE html>
 <html lang="da">
 <head>
@@ -11,7 +12,11 @@ require "settings/init.php";
 	<meta name="robots" content="All">
 	<meta name="author" content="Udgiver">
 	<meta name="copyright" content="Information om copyright">
-	
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap')
+    </style>
+
 	<link href="css/styles.css" rel="stylesheet" type="text/css">
 	
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -22,7 +27,9 @@ require "settings/init.php";
 <br><br><br><br><br><br><br><br><br><br>
 
 <div class="container">
-    <h1>Build a Chocolate Bar</h1>
+    <div class="text-darkPink">
+        <h1>Build a Chocolate Bar</h1>
+    </div>
 </div>
 
 

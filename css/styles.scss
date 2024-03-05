@@ -12,6 +12,10 @@ $link-decoration: none;
 $custom-colors: (
 	"farve": $cyan-400,
 	"bgBeige": #F5E7AC,
+	"darkPink": #F279B2,
+	"lightPink": #F5BCEC,
+	"mainPurple": #7D79F2,
+	"mainBlue": #6AC4D9,
 );
 
 $theme-colors: map-merge($theme-colors, $custom-colors);
@@ -19,3 +23,11 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 @import "bootstrapComponents";
 
 // 5. Du kan lave styling her...
+body {
+	font-family: "Fredoka", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: bolder;
+	font-style: normal;
+	font-variation-settings:
+					"wdth" 100;
+}

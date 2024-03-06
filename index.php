@@ -7,7 +7,7 @@ require "settings/init.php";
 <head>
 	<meta charset="utf-8">
 	
-	<title>ChocolateMaker</title>
+	<title>Make a Chocolate Bar</title>
 	
 	<meta name="robots" content="All">
 	<meta name="author" content="Udgiver">
@@ -32,6 +32,9 @@ require "settings/init.php";
     </div>
 </div>
 
+<div>
+    <img src="img/chokoladebar_copy.png" alt="Picture of a chocolate bar">
+</div>
 
 
 <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>

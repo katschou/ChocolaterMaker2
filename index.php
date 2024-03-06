@@ -36,6 +36,9 @@ require "settings/init.php";
     <img src="img/chokoladebar_copy.png" alt="Picture of a chocolate bar">
 </div>
 
+<button class="buttonStart">START</button>
+
+
 
 <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </body>

@@ -36,8 +36,45 @@ require "settings/init.php";
 </div>
 
 
-<div class="container">
+<div class="container text-center">
+    <div class="row d-flex">
 
+        <div class="col-6 card" style="width: 14rem;">
+            <img src="img/minichoco2.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h3 class="card-text">Mini</h3>
+            </div>
+        </div>
+
+        <div class="col-6 card " style="width: 14rem;">
+            <img src="img/minichoco2.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h3 class="card-text">Heart</h3>
+            </div>
+        </div>
+
+        <div class="col-6 card" style="width: 14rem;">
+            <img src="img/minichoco2.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h3 class="card-text">Regular</h3>
+            </div>
+        </div>
+
+        <div class="col-6 card" style="width: 14rem;">
+            <img src="img/minichoco2.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h3 class="card-text">Large</h3>
+            </div>
+        </div>
+
+        <div class="col-6 card" style="width: 14rem;">
+            <img src="img/minichoco2.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h3 class="card-text">Share</h3>
+            </div>
+        </div>
+
+    </div>
 </div>
 
 <div class="container">

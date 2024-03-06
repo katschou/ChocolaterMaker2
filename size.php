@@ -1,7 +1,8 @@
 <?php
 require "settings/init.php";
 ?>
-
+<!DOCTYPE html>
+<html lang="da">
 <head>
     <meta charset="utf-8">
 
@@ -23,6 +24,7 @@ require "settings/init.php";
 <body class="bg-bgBeige">
 
 <div class="header">
+    <img src="img/topwiggle.png" alt="nnnnnh">
     <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">
         <div class="progress-bar progress-bar-striped progress-bar-animated bg-mainPurple" style="width: 20%; height: 40px;"></div>
     </div>
@@ -77,15 +79,21 @@ require "settings/init.php";
     </div>
 </div>
 
-<div class="container">
-    <div class="col-6">
-        <button class="btn-mainBlue">Back</button>
-    </div>
-    <div class="col-6">
-        <button class="btn-darkPink">Next</button>
-    </div>
+<div class="m-0 position-absolute bottom-0 start-0">
+    <a>
+        <img src="img/backbtnwiggle.png" alt="Back button">
+    </a>
+</div>
+
+<div class="m-0 position-absolute bottom-0 end-0">
+    <a>
+        <img src="img/nextbtnwiggle.png" alt="Next button">
+    </a>
 </div>
 
 
 
+
+<script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+</html>

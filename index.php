@@ -3,8 +3,11 @@ require "settings/init.php";
 ?>
 
 <!DOCTYPE html>
+
 <html lang="da">
+
 <head>
+
 	<meta charset="utf-8">
 	
 	<title>Make a Chocolate Bar</title>
@@ -20,11 +23,19 @@ require "settings/init.php";
 	<link href="css/styles.css" rel="stylesheet" type="text/css">
 	
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+
 </head>
+
 
 <body class="bg-bgBeige">
 
+
+<img src="img/wiggles.png" alt="Wiggles" class="wiggles object-fit-cover">
+
+
+
 <br><br><br><br><br><br><br><br><br><br>
+
 
 <div class="container">
     <div class="text-darkPink">

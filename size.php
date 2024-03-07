@@ -1,6 +1,7 @@
 <?php
 require "settings/init.php";
 ?>
+
 <!DOCTYPE html>
 
 <html lang="da">
@@ -29,69 +30,78 @@ require "settings/init.php";
 <body class="bg-bgBeige">
 
 
-<div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">
-    <div class="progress-bar progress-bar-striped progress-bar-animated bg-mainPurple" style="width: 20%; height: 40px;"></div>
+<div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="20" aria-valuemin="0"
+     aria-valuemax="100">
+    <div class="progress-bar progress-bar-striped progress-bar-animated bg-mainPurple"
+         style="width: 20%; height: 40px;"></div>
 </div>
 
-<img src="img/topwigglenew.png" alt="#" class="position-fixed">
 
+<img src="img/topwigglenew.png" alt="#" class="position-fixed">
 
 <div class="text-darkPink position-relative">
     <h1>Choose a size:</h1>
 </div>
 
-<br><br><br><br><br><br><br><br>
 
-<div class="container text-center">
-    <div class="row">
-
-        <div class="row-col-6 card" style="width: 14rem;">
-            <img src="img/minichoco2.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h3 class="card-text">Mini</h3>
-                <a href="#" class="stretched-link"></a>
+<div class="cardsContainer container position-relative text-center">
+    <div class="row position-absolute">
+        <div class="col-6">
+            <div class="card" style="width: 18rem;">
+                <img src="img/minichoco2.jpg" class="card-img-top" alt="#">
+                <div class="card-body">
+                    <h3 class="card-text">Mini</h3>
+                    <a href="#" class="stretched-link"></a>
+                </div>
             </div>
         </div>
 
-        <div class="row-col-6 card" style="width: 14rem;">
-            <img src="img/heartchoco2.png" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h3 class="card-text">Heart</h3>
-                <a href="#" class="stretched-link"></a>
+        <div class="col-6">
+            <div class="card" style="width: 18rem;">
+                <img src="img/heartchoco2.png" class="card-img-top" alt="#">
+                <div class="card-body">
+                    <h3 class="card-text">Mini</h3>
+                    <a href="#" class="stretched-link"></a>
+                </div>
             </div>
         </div>
 
-        <div class="row-col-6 card" style="width: 14rem;">
-            <img src="img/regularchoco.png" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h3 class="card-text">Regular</h3>
-                <a href="#" class="stretched-link"></a>
+        <div class="col-6">
+            <div class="card" style="width: 18rem;">
+                <img src="img/regularchoco.png" class="card-img-top" alt="#">
+                <div class="card-body">
+                    <h3 class="card-text">Mini</h3>
+                    <a href="#" class="stretched-link"></a>
+                </div>
             </div>
         </div>
 
-        <div class="row-col-6 card" style="width: 14rem;">
-            <img src="img/largechoco.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h3 class="card-text">Large</h3>
-                <a href="#" class="stretched-link"></a>
+        <div class="col-6">
+            <div class="card" style="width: 18rem;">
+                <img src="img/largechoco.jpg" class="card-img-top" alt="#">
+                <div class="card-body">
+                    <h3 class="card-text">Mini</h3>
+                    <a href="#" class="stretched-link"></a>
+                </div>
             </div>
         </div>
 
-        <div class="row-col-6 card" style="width: 14rem;">
-            <img src="img/sharechoco2.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h3 class="card-text">Share</h3>
-                <a href="#" class="stretched-link"></a>
+        <div class="col-6">
+            <div class="card" style="width: 18rem;">
+                <img src="img/sharechoco2.jpg" class="card-img-top" alt="#">
+                <div class="card-body">
+                    <h3 class="card-text">Mini</h3>
+                    <a href="#" class="stretched-link"></a>
+                </div>
             </div>
         </div>
-
     </div>
 </div>
 
 
 <div class="m-0 position-absolute bottom-0 start-0">
     <a class="stretched-link">
-        <img src="img/backbtnwigglenew.png" alt="Back button" >
+        <img src="img/backbtnwigglenew.png" alt="Back button">
     </a>
 </div>
 
@@ -100,8 +110,6 @@ require "settings/init.php";
         <img src="img/nextbtnwigglenew.png" alt="Next button">
     </a>
 </div>
-
-
 
 
 <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>

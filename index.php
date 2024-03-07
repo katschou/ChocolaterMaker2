@@ -65,9 +65,9 @@ require "settings/init.php";
     </div>
 </div>
 
-<div class="">
-    <div class="nextBtn container">
-        <button class="btn btn-darkPink text-lightPink position-fixed start-50 translate-middle">
+<div class="position-relative">
+    <div class="nextBtn container text-center position-absolute">
+        <button class="btn btn-darkPink text-lightPink rounded-5 position-fixed start-50 top-50 translate-middle">
             START
         </button>
     </div>

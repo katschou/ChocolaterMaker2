@@ -33,7 +33,7 @@ require "settings/init.php";
     <div class="progress-bar progress-bar-striped progress-bar-animated bg-mainPurple" style="width: 20%; height: 40px;"></div>
 </div>
 
-<img src="img/topwigglenew.png" alt="nnnnnh" class="position-fixed">
+<img src="img/topwigglenew.png" alt="#" class="position-fixed">
 
 
 <div class="text-darkPink position-relative">

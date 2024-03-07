@@ -30,25 +30,22 @@ require "settings/init.php";
 <body class="bg-bgBeige">
 
 
-<img src="img/wiggles.png" alt="Wiggles" class="wiggles object-fit-cover">
+<img src="img/indextopwigglesactual.png" alt="Wiggles" class="position-fixed end-0">
+<img src="img/indexbottomwigglesactual.png" alt="Wiggles" class="position-fixed start-0 bottom-0">
 
-
-
-<br><br><br><br><br><br><br><br><br><br>
-
-
-<div class="container">
-    <div class="text-darkPink">
-        <h1>Build a Chocolate Bar</h1>
-    </div>
+<div class="text-darkPink translate-middle position-relative translate-middle-x start-50 bottom-0 text-center">
+    <h1 class="buildH">Build a Chocolate Bar</h1>
 </div>
+
 
 <div>
-    <img src="img/chokoladebar_copy.png" alt="Picture of a chocolate bar">
+    <img src="img/chocolatebarpngmaybecrop.png" alt="Picture of a chocolate bar" class="position-absolute" >
 </div>
 
-<button class="buttonStart">START</button>
 
+<button class="btn btn-lg btn-darkPink text-lightPink bottom-0 start-0 fs-1" style="width: 400px; height: 200px">
+    <h1 class="startH">START</h1>
+</button>
 
 
 <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>

@@ -8,22 +8,22 @@ require "settings/init.php";
 
 <head>
 
-	<meta charset="utf-8">
-	
-	<title>Make a Chocolate Bar</title>
-	
-	<meta name="robots" content="All">
-	<meta name="author" content="Udgiver">
-	<meta name="copyright" content="Information om copyright">
+    <meta charset="utf-8">
+
+    <title>Done</title>
+
+    <meta name="robots" content="All">
+    <meta name="author" content="Udgiver">
+    <meta name="copyright" content="Information om copyright">
 
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap')
     </style>
     <script src="https://kit.fontawesome.com/bfdd5c06bb.js" crossorigin="anonymous"></script>
 
-	<link href="css/styles.css" rel="stylesheet" type="text/css">
-	
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
 </head>
 
@@ -35,7 +35,7 @@ require "settings/init.php";
 <img src="img/indexbottomwigglesactual.png" alt="#" class="position-fixed start-0 bottom-0">
 
 <div class="text-darkPink translate-middle position-relative translate-middle-x start-50 text-center">
-    <h1 class="buildH">Build a <p class="text-break">Chocolate Bar</p></h1>
+    <h1 class="buildH">Done!</h1>
 </div>
 
 
@@ -70,10 +70,10 @@ require "settings/init.php";
 
 </div>
 
-<div class="startBtn container text-center  position-absolute">
+<div class="payBtn container text-center  position-absolute">
     <div class="row end-50">
         <button class="btn  col-6 btn-darkPink text-lightPink position-relative">
-            START
+            Pay
         </button>
     </div>
 </div>

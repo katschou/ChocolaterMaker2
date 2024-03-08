@@ -10,7 +10,7 @@ require "settings/init.php";
 
     <meta charset="utf-8">
 
-    <title>Choose a size</title>
+    <title>Choose a filling</title>
 
     <meta name="robots" content="All">
     <meta name="author" content="Udgiver">
@@ -41,61 +41,35 @@ require "settings/init.php";
 <img src="img/topwigglenew.png" alt="#" class="position-fixed">
 
 <div class="chooseSize text-darkPink position-relative">
-    <p>Choose a size:</p>
+    <p>Choose a filling:</p>
 </div>
 
 
 <div class="cardsContainer container position-relative text-center">
     <div class="row gx-0 position-absolute">
-        <div class="col-6">
-            <div class="card" style="width: 17rem;">
-                <img src="img/minichoco2.jpg" class="card-img-top" alt="#">
-                <div class="card-body">
-                    <h1 class="card-text">Mini</h1>
-                    <a href="#" class="stretched-link"></a>
-                </div>
-            </div>
-        </div>
 
-        <div class="col-6">
-            <div class="card" style="width: 17rem;">
-                <img src="img/heartchoco2.png" class="card-img-top" alt="#">
-                <div class="card-body">
-                    <h1 class="card-text">Heart</h1>
-                    <a href="#" class="stretched-link"></a>
-                </div>
-            </div>
-        </div>
+        <?php
+        $sql = "SELECT * FROM filling INNER JOIN categories ON filling.fillCategoryId = categories.cateId";
+        $filling = $db->sql($sql);
+        foreach ($filling as $fillings) {
+            ?>
 
-        <div class="col-6">
-            <div class="card" style="width: 17rem;">
-                <img src="img/regularchoco.png" class="card-img-top" alt="#">
-                <div class="card-body">
-                    <h1 class="card-text">Regular</h1>
-                    <a href="#" class="stretched-link"></a>
+            <div class="col-6">
+                <div class="card" style="width: 17rem;">
+                    <img src="img/minichoco2.jpg" class="card-img-top" alt="#">
+                    <div class="card-body">
+                        <h1 class="card-text"><?php
+                            echo $fillings->fillName
+                            ?></h1>
+                        <a href="#" class="stretched-link"></a>
+                    </div>
                 </div>
             </div>
-        </div>
 
-        <div class="col-6">
-            <div class="card" style="width: 17rem;">
-                <img src="img/largechoco.jpg" class="card-img-top" alt="#">
-                <div class="card-body">
-                    <h1 class="card-text">Large</h1>
-                    <a href="#" class="stretched-link"></a>
-                </div>
-            </div>
-        </div>
+            <?php
+        }
+        ?>
 
-        <div class="col-6">
-            <div class="card" style="width: 17rem;">
-                <img src="img/sharechoco2.jpg" class="card-img-top" alt="#">
-                <div class="card-body">
-                    <h1 class="card-text">Share</h1>
-                    <a href="#" class="stretched-link"></a>
-                </div>
-            </div>
-        </div>
     </div>
 </div>
 

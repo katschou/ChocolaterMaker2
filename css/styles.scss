@@ -16,6 +16,7 @@ $custom-colors: (
 	"lightPink": #F5BCEC,
 	"mainPurple": #7D79F2,
 	"mainBlue": #6AC4D9,
+	"textBlue": #39616B,
 );
 
 $theme-colors: map-merge($theme-colors, $custom-colors);
@@ -42,14 +43,19 @@ body {
 }
 
 .buildH {
-	font-size: 600%;
+	font-size: 120px;
+	padding-top: 200px;
+	font-weight: bold;
 }
 
-//.startH {
-//	font-size: 200%;
-//}
+.startBtn button {
+	font-size: 100px;
+	padding-top: 10px;
+	padding-left: 60px;
+	padding-right: 60px;
+}
 
-.nextBtn button {
+.payBtn button {
 	font-size: 100px;
 	padding-top: 10px;
 	padding-left: 60px;
@@ -58,6 +64,35 @@ body {
 
 .cardsContainer {
 	margin-right: 0;
-	padding:0;
+	padding-top: 50px;
+	padding-left: 50px;
 	align-content: center;
+	outline: #7D79F2;
+}
+
+.allergies {
+	font-size: 50px;
+}
+
+.chooseSize {
+	font-size: 100px;
+	padding-top: 20px;
+	padding-left: 70px;
+	font-weight: bold;
+}
+
+.backBtn {
+	height: 300px;
+}
+
+.nextTxt {
+	font-size: 100px;
+	padding-right: 100px;
+	padding-bottom: 50px;
+}
+
+.backTxt {
+	font-size: 100px;
+	padding-left: 100px;
+	padding-bottom: 50px;
 }

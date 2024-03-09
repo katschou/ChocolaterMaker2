@@ -45,6 +45,7 @@ require "settings/init.php";
 </div>
 
 
+
 <div class="cardsContainer container position-relative text-center">
     <div class="row gx-0 position-absolute">
         <div class="col-6">

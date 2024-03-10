@@ -74,6 +74,33 @@ require "settings/init.php";
 </div>
 
 
+<div class="container position-relative  allergies text-mainPurple" style="right: 30px; bottom: 30px; padding-top: 1050px; padding-left: 150px;">
+    <div class="bottom-0">
+
+        <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+            <label class="form-check-label" for="flexCheckDefault">
+                Gluten-free
+            </label>
+        </div>
+
+        <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+            <label class="form-check-label" for="flexCheckDefault">
+                Lactose-free
+            </label>
+        </div>
+
+        <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+            <label class="form-check-label" for="flexCheckDefault">
+                Nut-free
+            </label>
+        </div>
+
+    </div>
+</div>
+
 <div class="backBtn m-0 position-fixed bottom-0 start-0">
     <a class="stretched-link" href="#">
         <img src="img/backbtnwigglenew.png" alt="Back button">

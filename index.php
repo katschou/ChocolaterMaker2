@@ -43,31 +43,6 @@ require "settings/init.php";
 
     <img src="img/chocolatebarpngmaybecropped.png" alt="Picture of a chocolate bar" class="position-relative">
 
-    <div class="h1 position-absolute allergies text-mainPurple" style="right: 30px; bottom: 30px;">
-
-        <div class="form-check">
-            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-            <label class="form-check-label" for="flexCheckDefault">
-                Gluten-free
-            </label>
-        </div>
-
-        <div class="form-check">
-            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-            <label class="form-check-label" for="flexCheckDefault">
-                Lactose-free
-            </label>
-        </div>
-
-        <div class="form-check">
-            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-            <label class="form-check-label" for="flexCheckDefault">
-                Nut-free
-            </label>
-        </div>
-
-    </div>
-
 </div>
 
 <div class="startBtn container text-center  position-absolute">

@@ -43,28 +43,12 @@ require "settings/init.php";
 
     <img src="img/chocolatebarpngmaybecropped.png" alt="Picture of a chocolate bar" class="position-relative">
 
-    <div class="h1 position-absolute allergies text-mainPurple" style="right: 30px; bottom: 30px;">
+    <div class="h1 position-absolute chocInfo text-mainPurple" style="right: 40px; bottom: 30px;">
 
-        <div class="form-check">
-            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-            <label class="form-check-label" for="flexCheckDefault">
-                Gluten-free
-            </label>
-        </div>
-
-        <div class="form-check">
-            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-            <label class="form-check-label" for="flexCheckDefault">
-                Lactose-free
-            </label>
-        </div>
-
-        <div class="form-check">
-            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-            <label class="form-check-label" for="flexCheckDefault">
-                Nut-free
-            </label>
-        </div>
+        <p>Size</p>
+        <p>Base</p>
+        <p>Filling</p>
+        <p>Topping</p>
 
     </div>
 
@@ -80,5 +64,6 @@ require "settings/init.php";
 
 
 <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/script.js"></script>
 </body>
 </html>
